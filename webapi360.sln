@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI360-Web", "WebAPI360-Web\WebAPI360-Web.csproj", "{0BF56AD0-FD94-4B41-B05C-27C822379509}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI360-API", "WebAPI360-API\WebAPI360-API.csproj", "{46804BC5-09C5-4ADC-934F-8A1D0B06DED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI360Management-Web", "WebAPI360Management-Web\WebAPI360Management-Web.csproj", "{69453645-DCA6-4960-9D30-2FA3AC304D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI360-Web", "WebAPI360-Web\WebAPI360-Web.csproj", "{0A4D1164-9F77-4F73-886A-A8772DEFE8C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BF56AD0-FD94-4B41-B05C-27C822379509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BF56AD0-FD94-4B41-B05C-27C822379509}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BF56AD0-FD94-4B41-B05C-27C822379509}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BF56AD0-FD94-4B41-B05C-27C822379509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46804BC5-09C5-4ADC-934F-8A1D0B06DED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46804BC5-09C5-4ADC-934F-8A1D0B06DED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46804BC5-09C5-4ADC-934F-8A1D0B06DED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46804BC5-09C5-4ADC-934F-8A1D0B06DED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69453645-DCA6-4960-9D30-2FA3AC304D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69453645-DCA6-4960-9D30-2FA3AC304D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69453645-DCA6-4960-9D30-2FA3AC304D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69453645-DCA6-4960-9D30-2FA3AC304D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4D1164-9F77-4F73-886A-A8772DEFE8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4D1164-9F77-4F73-886A-A8772DEFE8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4D1164-9F77-4F73-886A-A8772DEFE8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4D1164-9F77-4F73-886A-A8772DEFE8C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
